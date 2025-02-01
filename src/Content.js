@@ -2,11 +2,11 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
 import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import css from "./assets/images/Skills/css.png";
+import js from "./assets/images/Skills/js.png";
 import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import Canva from "./assets/images/Skills/canva.png";
+import Html from "./assets/images/Skills/Html.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -19,11 +19,9 @@ import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import Hireme_person4 from "./assets/images/Hireme/person4.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -58,18 +56,18 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    title: "Web/UI Designer",
+    firstName: "SHABNUM",
+    LastName: "ARA",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "2+",
+        text: "Years of Experience in customer Service",
       },
       {
-        count: "20+",
+        count: "5+",
         text: "Projects Worked in my career",
       },
     ],
@@ -80,33 +78,33 @@ export const content = {
     skills_content: [
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: "Design, Prototype, Collaborate",
         logo: figma,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        name: "Canva",
+        para: "Visualize, Edit, Innovate",
+        logo: Canva,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "JavaScript",
+        para: "Dynamic, Interactive, Functional",
+        logo: js,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Backend, Scalable, Fast",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "CSS",
+        para: "Style, Layout, Responsiveness",
+        logo: css,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "HTML",
+        para: "Structure, Semantics, Accessibility",
+        logo: Html,
       },
     ],
     icon: MdArrowForward,
@@ -138,11 +136,11 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "App UI",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "Emai Newsletter",
         image: project2,
       },
       {
@@ -153,31 +151,19 @@ export const content = {
   },
   Testimonials: {
     title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
+    subtitle: "MY CLIENTS SAY",
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“In working with shabnum on web development and UI design, she helped bring our ideas to life with intuitive, visually engaging websites that enhanced user experience and contributed to our business success”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "saira",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“By collaborating with shabnum on web development and UI design, they transformed our concepts into sleek, functional websites that significantly improved user engagement and satisfaction”",
         img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
+        name: "Faisal",
       },
     ],
   },
@@ -185,32 +171,32 @@ export const content = {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
-    image2: Hireme_person2,
+    image2: Hireme_person4,
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "araashabnum@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:araashabnum@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+916006920342",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/+1916006920342",
       },
       {
-        text: "codeaprogram",
+        text: "shabnumara",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/ara__shabnum/",
       },
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copy Right Reserved 2023",
   },
 };

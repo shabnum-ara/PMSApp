@@ -48,16 +48,12 @@ const Skills = () => {
         </div>
         <br />
         <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
-          <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
+          <li>Skilled in Figma, I create intuitive and visually appealing UI designs.</li>
+          <li>Build clean, semantic web pages that provide structure and accessibility, forming the foundation for websites.</li>
+          <li>Create responsive, stylish layouts with modern techniques to ensure consistent design across all devices.
           </li>
           <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
-          </li>
+          Develop dynamic, interactive websites with efficient, functional JavaScript to enhance user experience.</li>
         </ul>
         <br />
         <div className="flex justify-end">
