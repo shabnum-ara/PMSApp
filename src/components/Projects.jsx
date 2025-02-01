@@ -1,6 +1,7 @@
 import { content } from "../Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import 'swiper/swiper-bundle.min.css';
 
 // Import Swiper styles
 import "swiper/css";
