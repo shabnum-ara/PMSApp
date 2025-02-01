@@ -12,8 +12,8 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-//import project2 from "./assets/images/projects/img4.png";
-import project3 from "./assets/images/projects/img3.png";
+import project2 from "./assets/images/projects/img4.png";
+//import project3 from "./assets/images/projects/img3.png";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -21,16 +21,6 @@ import avatar2 from "./assets/images/Testimonials/avatar2.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person4 from "./assets/images/Hireme/person4.png";
-
-import image from '@rollup/plugin-image';
-
-export default {
-  plugins: [
-    image(),
-    // other plugins
-  ],
-};
-
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -144,14 +134,14 @@ export const content = {
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
-      // {
-      //   title: "Email Newsletter",
-      //   image: project2,
-      // },
       {
-        title: "Creative Website",
-        image: project3,
+        title: "Email Newsletter",
+        image: project2,
       },
+      // {
+      //   title: "Creative Website",
+      //   image: project3,
+      // },
     ],
   },
 
