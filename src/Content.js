@@ -12,7 +12,7 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project2 from "./assets/images/projects/img4.png";
+//import project2 from "./assets/images/projects/img4.png";
 import project3 from "./assets/images/projects/img3.png";
 import person_project from "./assets/images/projects/person.png";
 
@@ -144,10 +144,10 @@ export const content = {
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
-      {
-        title: "Email Newsletter",
-        image: project2,
-      },
+      // {
+      //   title: "Email Newsletter",
+      //   image: project2,
+      // },
       {
         title: "Creative Website",
         image: project3,
